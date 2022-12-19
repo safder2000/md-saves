@@ -1,1 +1,0 @@
-Dupe refers to duplication, and in Minecraft servers, it is a method used to duplicate items or blocks. This can be done by using certain exploits or glitches in the game code, or by using third-party tools or mods. 
