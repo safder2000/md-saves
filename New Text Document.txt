@@ -1,0 +1,16 @@
+@echo off
+
+rem Set the path to the Chrome password file
+set chrome_passwords_path="%LOCALAPPDATA%\Google\Chrome\User Data\Default\Login Data"
+
+rem Set the path to the desktop
+set desktop_path=%USERPROFILE%\Desktop
+
+rem Set the path to the Notepad file that will contain the passwords
+set output_file_path=%USERPROFILE%\Desktop\Chrome_Passwords.txt
+
+rem Export the passwords to the Notepad file
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --password-store=basic --export-password-store="%output_file_path%"
+
+echo Done!
+pause
